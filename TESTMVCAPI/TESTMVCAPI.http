@@ -1,0 +1,6 @@
+@TESTMVCAPI_HostAddress = http://localhost:5284
+
+GET {{TESTMVCAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
